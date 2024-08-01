@@ -1077,6 +1077,9 @@
     -webkit-touch-callout: none;
     user-select: none;
 }
+.wrapper-slider-img{
+  overflow:hidden !important;
+}
 
 
 }			
