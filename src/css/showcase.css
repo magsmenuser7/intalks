@@ -163,11 +163,11 @@
   flex-direction: column;
   align-items: center;
   column-gap: 20px;
-  margin-bottom:0px;
+  margin-top:420px;
   width:auto;
-  font-size:110px;
+  font-size:20px;
   line-height:180px;
-  color:#000;
+  color:#fff !important;
   overflow: hidden;
   -webkit-touch-callout: none; 
   -webkit-user-select: none; 
@@ -1052,7 +1052,7 @@
   height: 100%;
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover;
+  background-size: contain;
   opacity: 1;
 }
 .image-swipe{
@@ -1080,7 +1080,85 @@
 .wrapper-slider-img{
   overflow:hidden !important;
 }
-
+.image-sec{
+  width: 100vw;
+  height: 100vh;
+  background-size:contain !important;
+  background-repeat: no-repeat;
+  background-position: center center !important;
+}
+.title {
+  font-weight: 300;
+  font-family: 'Gobold', sans-serif;
+  position: relative;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  column-gap: 20px;
+  margin-top:260px;
+  width:auto;
+  font-size:10px;
+  line-height:180px;
+  color:#fff !important;
+  overflow: hidden;
+  -webkit-touch-callout: none; 
+  -webkit-user-select: none; 
+  -khtml-user-select: none; 
+  -moz-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none; 
+}
+.click-here-btn{
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 5px !important;
+}
 
 }			
+
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 40.25%;
+  height: 0 !important;
+  overflow: hidden !important;
+  box-shadow: 0 2px 8px rgba(63, 69, 81, 0.16);
+  margin-top: 1.6em;
+  margin-bottom: 0.9em;
+  border-radius: 8px;
+  will-change: transform;
+}
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.image-sec{
+  width: 100vw;
+  height: 100vh;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.click-here-btn{
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 5px !important;
+}
+
+.click-here-btn:hover{
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 5px !important;
+}
+.fa-arrow-right{
+  margin-right: 5px !important;
+}
 
