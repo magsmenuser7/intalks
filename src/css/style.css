@@ -1790,7 +1790,7 @@ hr {
 	padding: 0 20px;
 }
 
-.flexnav li {;
+.flexnav li {
 	line-height: 9vw;
 }
 
@@ -1908,6 +1908,7 @@ footer.showcase-footer .showcase-subtitles-wrap {
 footer.showcase-footer .socials-wrap {
 	display:none;
 }
+
 }
 
 @media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : landscape) {

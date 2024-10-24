@@ -63,7 +63,7 @@
                                 allowfullscreen
                                 allow="autoplay; fullscreen" width="100%" height="100%">
                             </iframe>
-                        </div> -->
+                          </div> -->
 
                            
                               <div class="section-image image-sec" 
@@ -242,18 +242,29 @@
                               </div>
                             </div>
                             <!--/Section Slide -->
+
                           <!-- Section Slide -->
                           <div class="swiper-slide" data-number="" data-title="">
                             <div class="img-mask last-swiper-slide">
                               <div class="section-image image-swipe"
                                 data-src="src/img/prv/10.jpg">
+                                <div class="image-overlay"></div>
                               </div>
                             </div>
-                            <div class="title hide-ball" data-type="page-transition">
-                              <div class="title-main">
-                           
+                            <div class="hide-ball main-title" data-type="page-transition">
+                              <div class="title-main ">
+                                <form class="formsubmit" id="contactForm">
+                                  <input type="text" name="name" id="name" placeholder="NAME">
+                                  <input type="text" name="phone" id="phone" placeholder="PHONE">
+                                  <input type="text" name="city" id="city" placeholder="CITY">
+                                  <select name="connect" id="connect">
+                                    <option value="reason">THE REASEON LIKE TO CONNECT:</option>
+                                    <option value="guest">WANT TO BE GUEST</option>
+                                    <option value="member">ENQUIRY MESSAGE</option>
+                                  </select>
+                                  <button type="button" id="btnsbmt" onclick="submitbtn()">SUBMIT</button>
+                                </form>
                               </div>
-                             
                             </div>
                           </div>
                           <!--/Section Slide -->
@@ -274,10 +285,12 @@
         </div>
       </div>
       <!--/Page Content -->
+      
     </div>
     <!--/Cd-main-content -->
   </main>
   <!--/Main -->
+
 
   <!-- JavaScripts -->
   <script src='src/js/jquery.min.js'></script>

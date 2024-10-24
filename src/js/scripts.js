@@ -468,3 +468,39 @@ Function Showcase
 
 });
 	
+
+
+function submitbtn(){
+	let name = document.getElementById('name').value;
+	let phone = document.getElementById('phone').value;
+	let city = document.getElementById('city').value;
+	let connectreason  = document.getElementById('connect').value;
+
+	if(name == ""){
+		alert("Name field required");
+		return;
+	}
+	if(phone == ""){
+		alert("Phone field required");
+		return;
+	}
+	if(city == ""){
+		alert("City field required");
+		return;
+	}
+    if (connectreason === "reason") {
+        alert("Please select a valid reason to connect.");
+        return;
+    }
+
+	let formdata = {
+		name:name,
+		phone:phone,
+		city:city,
+		connectreason:connectreason,
+	}
+	console.log(formdata)
+	alert("Form Submission successfull")
+	document.getElementById('contactForm').reset();
+
+}
